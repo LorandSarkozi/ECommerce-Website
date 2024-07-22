@@ -1,0 +1,98 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .product-card, .review-card, .faq-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .product-image, .review-image {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-image img, .review-image img {
+    width: 300px;
+    display: block;
+  }
+  
+  .product-details, .review-details, .faq-details {
+    padding: 20px;
+  }
+  
+  .product-details h2, .review-details h2, .faq-details p {
+    margin: 0 0 10px;
+  }
+  
+  .product-details p, .review-details p, .faq-details p {
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .price, .category, .rating, .username {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+  
+  .review-list, .faq-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .details-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .review-image img.small-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .faq-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .faq-details .question, .faq-details .answer {
+    font-weight: bold;
+  }
+  
+  .faq-details .question-text, .faq-details .answer-text {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
